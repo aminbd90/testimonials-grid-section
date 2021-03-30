@@ -5,8 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 :root {
     --Moderate-violet: hsl(263, 55%, 52%);
     --Very-dark-grayish-blue: hsl(217, 19%, 35%);
@@ -15,7 +13,6 @@
     --Light-gray: hsl(0, 0%, 81%);
     --Light-grayish-blue: hsl(210, 46%, 95%);
 }
-
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 0.8125rem;
@@ -23,19 +20,17 @@ body {
     color: var(--Light-gray);
     background-color: var(--Light-grayish-blue);
 }
-
 img {
     width: 100%;
 }
-
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.25rem;
     max-width: 1040px;
-    width: 90%;
-    margin: 9.375rem auto;
+    width: 96%;
+    margin: 9.625rem auto;;
 }
 
 .box {
@@ -45,36 +40,29 @@ img {
 }
 
 /* Profile */
-
 .profile {
     display: flex;
     align-items: center;
     gap: 0.875rem;
 }
-
 .profile-img img {
     width: 2.1875rem;
     height: 2.1875rem;
     border: 0.125rem solid var(--Moderate-violet);
     border-radius: 50%;
 }
-
 .profile-info p {
     opacity: 50%;
 }
 
-
 /* Review */
-
 .heading {
     font-size: 1.125rem;
     margin: 1.125rem 0;
 }
-
 .review p {
     opacity: 70%;
 }
-
 .box-one {
     color: var(--Light-gray);
     background-color: var(--Moderate-violet);
@@ -101,8 +89,7 @@ img {
     background-color: var(--Very-dark-blackish-blue);
 }
 
-
-
+/* mediaquery */
 @media (max-width: 36rem) {
     .container {
        display: flex;
